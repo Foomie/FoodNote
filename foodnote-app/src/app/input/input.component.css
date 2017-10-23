@@ -1,0 +1,14 @@
+.FdTime{
+    text-align: center;
+    width:80px;
+}
+.FdDtl{
+    border-color: #c5c5c5;
+    background-color: #ffffff;
+}
+
+.INbtn{
+    width: 100px;
+    height: 100px;
+    float:right;
+}

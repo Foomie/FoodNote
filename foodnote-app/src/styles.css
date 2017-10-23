@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* TAG */
+body{
+    margin:0;
+    padding:0;
+}
+
+/* CLASS */
+
+/* ID */
+#header{
+    background: #4e98d4;
+}
+#footer{
+    background: #4e98d4;
+}
+#btn{
+    text-align: center;
+}
