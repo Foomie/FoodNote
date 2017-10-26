@@ -1,0 +1,19 @@
+a{
+    text-decoration: none;
+}
+#header{
+    height:70px;
+}
+#header, b, a{
+    text-align: center;
+    font-size:26px;
+}
+#back_btn{
+}
+
+＃footer{
+    height:50px;
+}
+.lnkbtn{
+    height:50px;
+}

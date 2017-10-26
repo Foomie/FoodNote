@@ -1,9 +1,25 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<!-- ヘッダー開始 -->
 <div id="header">
-  <h1>{{title}}</h1>
-  <p><a routerLink="">ホーム</a></p>
+  <button id="back_btn" onclick="history.back()"> ＜ </button>
+  <b><a routerLink="">{{title}}</a></b>
+  <button id="set_btn"> 設定 </button>
 </div>
+
+<!-- コンテンツ開始 -->
 <router-outlet></router-outlet>
+
+<!-- フッター開始 -->
 <div id ="footer">
-  <p>フッター</p>
+  <div id="btn">
+    <button class="lnkbtn" routerLink="/calender">
+        カレンダー
+    </button>
+    <button class="lnkbtn" routerLink="/list">
+        リスト
+    </button>
+    <button class="lnkbtn" routerLink="/input">
+        入力
+    </button>
+  </div>
 </div>
