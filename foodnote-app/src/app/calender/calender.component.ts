@@ -12,4 +12,6 @@ export class CalenderComponent implements OnInit {
   ngOnInit() {
   }
 
+  //以下、ペースト。
+  
 }

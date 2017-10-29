@@ -12,6 +12,8 @@ import { CalenderComponent } from './calender/calender.component';
 import { ListComponent } from './list/list.component';
 import { DetailComponent } from './detail/detail.component';
 
+import { FormsModule }   from '@angular/forms';
+
 //パスと対応するコンポーネントを書く
 export const AppRoutes = [
   {path: "", component: MenuComponent},
@@ -32,7 +34,8 @@ export const AppRoutes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(AppRoutes)
+    RouterModule.forRoot(AppRoutes),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

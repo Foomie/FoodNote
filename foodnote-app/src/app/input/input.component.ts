@@ -12,4 +12,12 @@ export class InputComponent implements OnInit {
   ngOnInit() {
   }
 
+  month = '10';
+  day   = '27';
+  date  = 'Fri';
+
+  // 3デフォルト値を設定
+  asa = '';
+  hiru = '';
+  yoru = '';
 }

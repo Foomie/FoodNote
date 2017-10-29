@@ -1,7 +1,8 @@
-<form action="cgi-bin/formmail.cgi" method="post">
+<form name="tabemono">
 <table>
     <caption>
-      <h2>●月●日（●）食べたもの</h2>
+      <h2>{{month}}月{{day}}日（{{date}}）食べたもの</h2>
+      {{current | date: 'yyyy年M月d日（EEE）a hh時mm分ss秒'}}
     </caption>
     <tbody>
       <tr><td class="FdTime">朝</td><td><textarea class= "FdDtl" name="asa" rows="4" cols="40" placeholder="あさごはん"></textarea></td></tr>
